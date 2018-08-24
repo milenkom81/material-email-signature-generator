@@ -37,28 +37,28 @@
         <div class="container card hoverable">
             <div class="row valign-wrapper sig-header">
                 <div class="col s6 valign top-logo-img">
-                    <img src="img/top-logo.png">
+                    <img src="https://drive.google.com/uc?id=1jqL2fk0Mj0-OHD_DgKlHVHbVjk9XRGrz">
                 </div>
-                <p class="title col s6 valign">Signature Generator</p>
+                <p class="title col s6 valign">Generator Potpisa</p>
             </div>
             <form class="form" action="sig.php">
             <div class="card-content">
                     <div class="input-field">
                         <i class="material-icons prefix">account_circle</i>
                         <input type="text" name="name" id="name" onblur="firstFunction()">
-                        <label for="name">Name</label>
+                        <label for="name">Ime i Prezime</label>
                     </div>
                     <div class="input-field">
                         <i class="material-icons prefix">business</i>
-                        <input type="text" name="position" id="position" onblur="posFunction()">
-                        <label for="position">Position</label>                    
+                        <input type="text" name="position" id="position" onblur="firstFunction()">
+                        <label for="position">Pozicija</label>                    
                     </div>
                     <div class="input-field">
                         <i class="material-icons prefix">email</i>
                         <input type="text" name="email" id="email" onblur="posFunction()">
                         <label for="email">Email</label>                    
                     </div>
-                    <div class="input-field">
+                    <!--<div class="input-field">
                         <i class="material-icons prefix">phone</i> 
                         <input type="text" name="work" id="work" onblur="workFunction()">
                         <label for="work">Telefon (Office)</label>                    
@@ -66,11 +66,11 @@
                     <div class="input-field">
                         <i class="material-icons prefix">stay_current_portrait</i>
                         <input type="text" name="cell" id="cell" onblur="cellFunction()">
-                        <label for="cell">Telefon (Privat)</label>                    
-                    </div>
+                        <label for="cell">Telefon (Privatni)</label>                    
+                    </div>-->
                 </div>
                 <div class="card-action">
-                    <button type="submit" class="waves-effect waves-light btn">Generate</button>
+                    <button type="submit" class="waves-effect waves-light btn">Generiši</button>
                 </div>
             </form>
         </div>
@@ -79,7 +79,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
+ 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

@@ -5,6 +5,7 @@
 
 $(document).ready(function() {
     $('#markup').text($('#signature').html());
+	
 
     $('#markup').focus(function() {
         $('#markup').select();
